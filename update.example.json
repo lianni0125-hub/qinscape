@@ -1,0 +1,12 @@
+{
+  "version": "0.1.1",
+  "notes": [
+    "这里填写用户可以看懂的更新内容"
+  ],
+  "sha256": "发布包的 SHA-256",
+  "size": 0,
+  "urls": [
+    "https://github.com/lianni0125-hub/qinscape/releases/download/v0.1.1/qinscape-0.1.1.tar.gz",
+    "https://ghfast.top/https://github.com/lianni0125-hub/qinscape/releases/download/v0.1.1/qinscape-0.1.1.tar.gz"
+  ]
+}

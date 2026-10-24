@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.npm-cache/
+.uv-cache/
+
+# 上游原谱另有版权边界，不纳入琴境自身版本库。
+sources/Guqin-Dataset/
+sources/Text2midi/
+sources/DiffSinger/
+
+# Runtime models and generated media are mounted on AutoDL, not committed.
+models/
+runtime/
+outputs/
+web/dist/
+.test-tmp/
+.pytest_cache/
+.pytest-*/
+.pytest_tmp_*/
+.test-tmp-*/
+*.tar.gz
+*.zip
+.env
+*.log
+

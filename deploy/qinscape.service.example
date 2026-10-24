@@ -1,0 +1,16 @@
+[Unit]
+Description=QinScape music creation service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=CHANGE_ME
+WorkingDirectory=/CHANGE/TO/qinscape
+ExecStart=/usr/bin/bash /CHANGE/TO/qinscape/deploy/start.sh
+Restart=on-failure
+RestartSec=5
+Environment=QINSCAPE_PORT=6006
+
+[Install]
+WantedBy=multi-user.target

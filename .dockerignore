@@ -1,0 +1,10 @@
+.git
+node_modules
+web/node_modules
+.npm-cache
+runtime
+outputs
+models
+sources/Guqin-Dataset
+sources/Text2midi
+sources/DiffSinger

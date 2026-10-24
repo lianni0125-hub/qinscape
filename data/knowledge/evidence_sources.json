@@ -1,0 +1,43 @@
+{
+  "method": "Source claims and product interpretations are stored separately. URLs are research anchors, not blanket evidence for every work.",
+  "sources": [
+    {
+      "id": "SRC-NEI-001",
+      "title": "《黄帝内经·灵枢·五音五味》",
+      "url": "https://ctext.org/huangdi-neijing/wu-yin-wu-wei/zh",
+      "type": "primary_text",
+      "supports": "宫商角徵羽与五脏、五色、五味、时令的传统配属",
+      "caution": "原文并不等于现代临床疗效证据"
+    },
+    {
+      "id": "SRC-NEI-002",
+      "title": "《黄帝内经太素·经脉之二》",
+      "url": "https://ctext.org/wiki.pl?chapter=367608&if=gb",
+      "type": "primary_text",
+      "supports": "人合天道、五脏应五音的体系表述",
+      "caution": "用于文化框架，不用于诊断"
+    },
+    {
+      "id": "SRC-ICH-001",
+      "title": "中国非物质文化遗产网：古琴艺术",
+      "url": "https://www.ihchina.cn/project_details/12484/",
+      "type": "official_overview",
+      "supports": "琴歌、琴箫合奏、标题性、带腔性、非均分节奏、清微淡远及儒道文化语境"
+    },
+    {
+      "id": "SRC-ICH-002",
+      "title": "中国非物质文化遗产网：《平沙落雁》",
+      "url": "https://www.ihchina.cn/music_detail/7292.html",
+      "type": "official_work_note",
+      "supports": "雁群盘旋顾盼、静中有动、借远志写逸士心胸"
+    },
+    {
+      "id": "SRC-ICH-003",
+      "title": "中国非物质文化遗产网：梅庵琴派",
+      "url": "https://www.ihchina.cn/project_details/12489.html",
+      "type": "official_school_overview",
+      "supports": "长门怨、平沙落雁、洞庭秋思等与梅庵派传承语境"
+    }
+  ]
+}
+

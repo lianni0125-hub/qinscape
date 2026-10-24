@@ -1,0 +1,39 @@
+{
+  "version": "0.1.0",
+  "principle": "Corpus-derived values are priors, not rules.",
+  "feature_meanings": {
+    "density_z": "event density; positive is busier",
+    "register_z": "mean pitch height",
+    "range_z": "pitch span",
+    "silence_z": "rest proportion",
+    "harmonic_z": "staccato-coded overtone proxy",
+    "leap_z": "intervals >= 5 semitones"
+  },
+  "section_roles": {
+    "opening": "establish tonal field and pacing",
+    "development": "transform or extend material",
+    "peak": "local maximum of density/register/leap activity",
+    "settling": "reduce activity and prepare closure",
+    "closing": "confirm final center and release"
+  },
+  "runtime_contract": {
+    "inputs": [
+      "entry_mode",
+      "user_prompt",
+      "arrangement_mode",
+      "lyrics_enabled"
+    ],
+    "shared_outputs": [
+      "imagery_arc",
+      "form_plan",
+      "pitch_plan",
+      "rhythm_plan",
+      "texture_plan",
+      "gesture_plan"
+    ],
+    "entry_policies": [
+      "xieyi",
+      "tiaoxin"
+    ]
+  }
+}

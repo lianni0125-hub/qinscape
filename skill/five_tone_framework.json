@@ -1,0 +1,43 @@
+{
+  "version": "0.1.0",
+  "scope": "neijing_informed_cultural_wellbeing_design_not_medical_treatment",
+  "source_ids": ["SRC-NEI-001", "SRC-NEI-002"],
+  "provenance_layers": {
+    "classical_text": "《黄帝内经》提供五音、五脏、五行、五时等对应，以及情志相互制约的思想框架。",
+    "traditional_inference": "依据五行生克与后世五音理论推演音与状态之间的关系；必须标为推演，不能冒充《内经》原句。",
+    "product_strategy": "先承接、再渐变，以及具体曲式和音乐参数，属于琴境的现代产品设计。"
+  },
+  "mappings": {
+    "角": {"phase": "木", "organ_system_traditional": "肝", "season": "春", "color": "青", "product_semantics": ["舒展", "萌生", "疏达"]},
+    "徵": {"phase": "火", "organ_system_traditional": "心", "season": "夏", "color": "赤", "product_semantics": ["明朗", "温展", "通达"]},
+    "宫": {"phase": "土", "organ_system_traditional": "脾", "season": "长夏", "color": "黄", "product_semantics": ["安定", "承载", "居中"]},
+    "商": {"phase": "金", "organ_system_traditional": "肺", "season": "秋", "color": "白", "product_semantics": ["澄清", "收敛", "肃静"]},
+    "羽": {"phase": "水", "organ_system_traditional": "肾", "season": "冬", "color": "黑", "product_semantics": ["沉潜", "涵养", "归藏"]}
+  },
+  "design_rule": "先辨别当前状态、强度、成因和目标，再判断和、泄、制、养的方向，最后选择五音主次、意象弧线和音乐参数；不得把单个情绪机械地等同于单个音，也不得预设固定转音序列。",
+  "regulation_directions": {
+    "和": "偏差较轻或状态复杂时，以平衡、稳定、不过度强化为主。",
+    "泄": "状态郁结且需要表达时，允许有限度承接和展开，再逐步释放。",
+    "制": "某种情志明显偏盛时，引入与之形成制约的方向，但避免突然反转。",
+    "养": "状态虚弱、耗竭或缺乏支撑时，以承载、涵养和微弱生机为主。"
+  },
+  "transition_templates": {
+    "agitated_to_settled": ["先承接当前活动度", "逐段降低密度与跳进", "扩大停顿", "终段稳定中心音"],
+    "low_to_gently_activated": ["低活动度开场", "逐段增加清晰脉冲与上行势能", "避免突发高强度", "在中等活动度收束"],
+    "ruminative_to_open": ["用回环材料建立安全感", "引入更宽音域与空间意象", "减少机械重复", "以开放但稳定的尾声结束"]
+  },
+  "sadness_decision_example": {
+    "principle": "悲伤不是固定生成‘悲曲’，也不是立即转为欢快；先辨型，再决定是否承接及向何处转化。",
+    "traditional_starting_point": "悲、忧与肺、金、秋、商的联系可作为文化理解入口，不构成固定处方。",
+    "branches": {
+      "unexpressed_grief": {"direction": "泄_then_和", "arc": ["允许有限悲意", "表达与松动", "澄清", "安顿"]},
+      "repetitive_sorrow": {"direction": "和_then_养", "arc": ["短暂承接", "减少哀伤强化", "增加承载感", "稳定收束"]},
+      "sadness_with_stagnation": {"direction": "泄_then_养", "arc": ["承认压抑", "疏解郁结", "逐渐舒展", "保留温和生机"]},
+      "acute_grief": {"direction": "和", "arc": ["降低刺激", "建立可预测性", "延长呼吸与留白", "不强迫积极"]},
+      "aesthetic_sadness": {"direction": "route_to_xieyi_or_user_choice", "arc": ["确认用户是审美表达还是状态调节"]}
+    },
+    "forbidden_shortcut": "不得固定使用‘商→宫→角’，五音次序只能由具体状态与目标共同决定。"
+  },
+  "non_claims": ["不诊断脏腑疾病", "不承诺治疗效果", "不以五音替代专业医疗或心理支持"]
+}
+

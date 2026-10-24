@@ -1,0 +1,11 @@
+{
+  "dataset_commit": "e7feb0c2e7e4a5ba471c70723e7f81b9ae893902",
+  "reference_works": 71,
+  "parsed_whole_scores": 71,
+  "parsed_section_scores": 408,
+  "note_rows": 79225,
+  "motif_rows": 14156,
+  "failures": [],
+  "unmatched_reference_works": [],
+  "unmatched_whole_scores": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "xieyi-v1",
+  "purpose": "把自然、人物、诗句或抽象意境转成可听见的时空展开",
+  "stages": [
+    "extract_entities_season_weather_space_motion_light_emotion",
+    "choose_imagery_archetypes_with_cultural_evidence",
+    "build_scene_arc",
+    "retrieve_form_and_section_precedents",
+    "retrieve_local_gestures",
+    "emit_generation_neutral_plan"
+  ],
+  "priorities": ["imagery_coherence", "guqin_idiom", "formal_clarity", "novel_recombination"],
+  "forbidden": ["copy_long_source_passages", "treat_title_similarity_as_historical_fact"]
+}
+

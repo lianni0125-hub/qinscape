@@ -1,0 +1,25 @@
+{
+  "id": "tiaoxin-v1",
+  "purpose": "以黄帝内经五音理论为文化框架，把当下状态渐进引向目标状态；不是医疗诊断或治疗",
+  "stages": [
+    "distinguish_wellbeing_regulation_from_aesthetic_expression",
+    "extract_current_state_cause_intensity_duration_context_and_target_state",
+    "apply_five_tone_cultural_mapping_as_a_starting_hypothesis",
+    "choose_he_xie_zhi_yang_regulation_direction",
+    "choose_transition_strategy_without_fixed_tone_sequence",
+    "build_regulating_imagery_arc",
+    "retrieve_form_and_section_precedents",
+    "increase_predictability_breath_space_and_safe_dynamics",
+    "emit_generation_neutral_plan"
+  ],
+  "priorities": ["state_transition", "safety", "imagery_coherence", "guqin_idiom", "musical_interest"],
+  "interpretation_policy": {
+    "must_label": ["classical_text", "traditional_inference", "product_strategy"],
+    "never_say": ["《黄帝内经》规定了先同频再转调", "某种情绪必然对应某个固定调式", "某条五音序列能够治疗某种疾病"],
+    "preferred_description": "以《黄帝内经》五音体系为文化理论底座的现代调心设计"
+  },
+  "safety": {
+    "claims": "wellbeing_support_only",
+    "avoid": ["diagnosis", "treatment_claim", "guaranteed_effect", "overstimulation_when_user_requests_calm"]
+  }
+}

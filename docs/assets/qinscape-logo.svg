@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">琴境</title>
+  <desc id="desc">方框中倾斜的琵琶与三道流水</desc>
+  <g fill="none" stroke="#8e5c4a" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="5" y="5" width="86" height="86" rx="5.2" stroke-width="2.1"/>
+    <g transform="rotate(-12 36 48)">
+      <path d="M32.2 15.6c2.2-2 5.8-1.6 7.8.8l-2.4 20.4c-.6 6.2 9.8 11.4 13 21.2 4 12.4-3.6 22.2-13 23.8-9.2 1.6-17.4-4.8-16.8-16 .6-12.8 11.2-21.4 11.6-29.2Z" stroke-width="2.25"/>
+      <path d="M35.8 17.6c-.6 17.8-1.4 37.2-1.6 55.8" stroke-width="1.25" opacity=".75"/>
+      <path d="M31 26.8h7.6m-8 6h7.4M27.6 56.4c5 1.4 10.6 1 15.6-1.4" stroke-width="1.2" opacity=".55"/>
+    </g>
+    <path d="M55.6 38.2c8-6 15 4.8 27.6-1" stroke-width="2.8" opacity=".72"/>
+    <path d="M56.4 52.6c9.6-6.2 15.6 5.2 28.2-1" stroke-width="2.8" opacity=".54"/>
+    <path d="M55.4 67c8.2-4.6 15.2 4 27.8-.4" stroke-width="2.8" opacity=".36"/>
+  </g>
+</svg>

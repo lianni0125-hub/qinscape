@@ -1,0 +1,28 @@
+{
+  "id": "6753d903-b43f-5bfa-ac29-9635ff61d36b",
+  "name": "清商",
+  "language": "zh",
+  "transcript": "清风徐来，水波不兴。愿此刻的心绪，随声音缓缓舒展。",
+  "duration_seconds": 6.08,
+  "sample_rate": 44100,
+  "channels": 1,
+  "created_at": "2026-10-24T02:01:13.484626+00:00",
+  "consent_confirmed": true,
+  "status": "ready",
+  "source_kind": "preset",
+  "preset_order": 1,
+  "description": "清透女声",
+  "audio_url": "/api/voices/6753d903-b43f-5bfa-ac29-9635ff61d36b/audio",
+  "requirements_version": 1,
+  "loudness_normalization": {
+    "applied": true,
+    "target_lufs": -20,
+    "true_peak_dbtp": -2
+  },
+  "provenance": {
+    "generator": "hexgrad/Kokoro-82M-v1.1-zh",
+    "voice": "zf_001",
+    "license": "Apache-2.0",
+    "synthetic": true
+  }
+}

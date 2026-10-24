@@ -1,0 +1,22 @@
+{
+  "name": "qinscape",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract_features.mjs",
+    "build:skill": "node scripts/build_skill.mjs",
+    "validate": "node scripts/validate.mjs",
+    "query": "node scripts/query_skill.mjs",
+    "plan:tiaoxin": "node scripts/plan_tiaoxin.mjs",
+    "build:knowledge": "npm run extract && npm run build:skill && npm run validate",
+    "web:dev": "npm --prefix web run dev",
+    "web:build": "npm --prefix web run build",
+    "web:test": "npm --prefix web run test",
+    "build": "npm run validate && npm run web:build"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.3.0"
+  }
+}
+

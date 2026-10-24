@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "errors": [],
+  "warnings": [
+    "3 works differ between upstream whole and split files; retained as source inconsistency"
+  ],
+  "counts": {
+    "works": 71,
+    "whole_scores": 71,
+    "section_scores": 408,
+    "note_rows": 79225,
+    "composition_skills": 71
+  },
+  "upstream_whole_split_discrepancies": [
+    {
+      "work": "春山听杜鹃",
+      "whole_notes": 755,
+      "section_notes": 755,
+      "whole_measures": 205,
+      "section_measures": 206
+    },
+    {
+      "work": "双鹤听泉",
+      "whole_notes": 211,
+      "section_notes": 184,
+      "whole_measures": 50,
+      "section_measures": 50
+    },
+    {
+      "work": "秋塞吟",
+      "whole_notes": 973,
+      "section_notes": 979,
+      "whole_measures": 280,
+      "section_measures": 280
+    }
+  ]
+}
